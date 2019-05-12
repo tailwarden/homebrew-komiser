@@ -1,4 +1,4 @@
-class Heft < Formula
+class Komiser < Formula
     desc "Komiser.io command line interface"
     homepage "https://komiser.io"
     url "https://cli.komiser.io/2.1.0/osx/komiser"
