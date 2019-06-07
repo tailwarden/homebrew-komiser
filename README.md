@@ -1,6 +1,6 @@
 ## Usage
 
 ```
-brew tap mlabouardy/komiser
+brew tap komiserio/komiser
 brew install komiser
 ```
