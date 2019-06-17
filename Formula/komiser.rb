@@ -1,9 +1,9 @@
 class Komiser < Formula
     desc "Komiser.io command line interface"
     homepage "https://komiser.io"
-    url "https://cli.komiser.io/2.2.0/osx/komiser"
-    version "2.2.0"
-    sha256 "c9a2efb2dc0ef9ce10e2e80ae6ea5bc364ad73b70d3f6f46bbc1c7c4a16cfd27"
+    url "https://cli.komiser.io/2.3.0/osx/komiser"
+    version "2.3.0"
+    sha256 "e98ddcc79d94870f8db0406ada303adb61bcec32223bea67772717ea651d7793"
   
     def install
       bin.install "komiser"
