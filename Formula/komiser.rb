@@ -3,7 +3,7 @@ class Komiser < Formula
     homepage "https://komiser.io"
     url "https://cli.komiser.io/2.4.0/osx/komiser"
     version "2.4.0"
-    sha256 "4e4951a12658de0c8bf15806765ae2c6b5b734e45efbef54d2504d1dd1709b71"
+    sha256 "d55a3f539d659a4d36ad5fbf68c979709f1223ffd6bd870caff53975ee5c2eb6"
   
     def install
       bin.install "komiser"
