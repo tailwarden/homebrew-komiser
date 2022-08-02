@@ -1,6 +1,6 @@
 ## Usage
 
 ```
-brew tap komiserio/komiser
+brew tap HelloOraculi/komiser
 brew install komiser
 ```
