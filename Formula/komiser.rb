@@ -14,7 +14,7 @@ class Komiser < Formula
       end
       if Hardware::CPU.arm?
         url "https://cli.komiser.io/3.0.0/osx/arm/komiser"
-        sha256 "c909039cd333453b6000197128e3bacf1c8c005444b678ea0fe0a48d00d9a782"
+        sha256 "ca620227d0d53348f33bad2a007ef6d20668572d53672ca1a53c337a2fa2f94b"
   
         def install
           bin.install "komiser"
