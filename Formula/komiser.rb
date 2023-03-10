@@ -6,7 +6,7 @@ class Komiser < Formula
     on_macos do
       if Hardware::CPU.intel?
         url "https://cli.komiser.io/3.0.5/osx/amd/komiser"
-        sha256 "54cd760f9e48f0e0f78606302814ff664bf5c8e8685f8d7b103b80de19ffdbd0"
+        sha256 "5a904121c1e19e6b719e5673f0ce535ef360589b795a7669a18d5e2d14d2a9d2"
   
         def install
           bin.install "komiser"
@@ -14,7 +14,7 @@ class Komiser < Formula
       end
       if Hardware::CPU.arm?
         url "https://cli.komiser.io/3.0.5/osx/arm/komiser"
-        sha256 "1c1b37528b9775a663bce7c11a585b65d68b34f6181d595d9941230d20de9af9"
+        sha256 "36e547b1c35d476122c96f14fbf17ac59a152d4e94591d381f94dfb05509e7c2"
   
         def install
           bin.install "komiser"
