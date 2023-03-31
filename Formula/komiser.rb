@@ -8,20 +8,20 @@ class Komiser < Formula
   version "3.0.9"
 
   on_macos do
-    if Hardware::CPU.intel?
-      url "https://cli.komiser.io/3.0.9/komiser_Darwin_x86_64"
-      sha256 "70ea8d1ceff50d579cdebf0cd0e00029fe5554d430e842c15c74b49c883f3bd5"
-
-      def install
-        bin.install "komiser_Darwin_x86_64" => "komiser"
-      end
-    end
     if Hardware::CPU.arm?
       url "https://cli.komiser.io/3.0.9/komiser_Darwin_arm64"
-      sha256 "474e38bdbd5bfbc70051d93ea542430da9011b583c3cf06e71b1f2d94d33f992"
+      sha256 "d1e5fe6beeaf7cc536495f041a9eacee1cee8634d78c385fed70cf526ce4f327"
 
       def install
         bin.install "komiser_Darwin_arm64" => "komiser"
+      end
+    end
+    if Hardware::CPU.intel?
+      url "https://cli.komiser.io/3.0.9/komiser_Darwin_x86_64"
+      sha256 "32f931f1d8e7a09115b19465db724f16608dbb1c7b4347e7e38c5adc6b01bada"
+
+      def install
+        bin.install "komiser_Darwin_x86_64" => "komiser"
       end
     end
   end
@@ -29,7 +29,7 @@ class Komiser < Formula
   on_linux do
     if Hardware::CPU.intel?
       url "https://cli.komiser.io/3.0.9/komiser_Linux_x86_64"
-      sha256 "2b13b0b46ce1d0c74d6c8cb38ecb7ccb2f2892b21d9a9ed08848c00d83aadc6d"
+      sha256 "0e27135df37ab57034b336ac70695718658bb9087be346f637550a08167e12ac"
 
       def install
         bin.install "komiser_Linux_x86_64" => "komiser"
